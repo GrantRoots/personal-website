@@ -27,8 +27,8 @@ function App() {
           <h2>My Projects</h2>
           <div className={`${styles.project} link ${styles.left}`}>
             <div className={styles.imageContainer}>
-              <img src="/public/odinstagram1.png" alt="Odin Book Project" />
-              <img src="/public/odinstagram2.png" alt="" />
+              <img src="/odinstagram1.png" alt="Odin Book Project" />
+              <img src="/odinstagram2.png" alt="" />
             </div>
             <h2>Odinstagram</h2>
             <div>
@@ -62,8 +62,8 @@ function App() {
           </div>
           <div className={`${styles.project} link ${styles.right}`}>
             <div className={styles.imageContainer}>
-              <img src="/public/blogapi2.png" alt="Blog Api Project" />
-              <img src="/public/blogapi1.png" alt="Blog Api Project" />
+              <img src="/blogapi2.png" alt="Blog Api Project" />
+              <img src="/blogapi1.png" alt="Blog Api Project" />
             </div>
             <h2>Blog Api</h2>
             <div>
@@ -104,14 +104,8 @@ function App() {
           </div>
           <div className={`${styles.project} link ${styles.left}`}>
             <div className={styles.imageContainer}>
-              <img
-                src="/public/messagingapp1.png"
-                alt="Messaging App Project"
-              />
-              <img
-                src="/public/messagingapp2.png"
-                alt="Messaging App Project"
-              />
+              <img src="/messagingapp1.png" alt="Messaging App Project" />
+              <img src="/messagingapp2.png" alt="Messaging App Project" />
             </div>
             <h2>Messaging App</h2>
             <div>
@@ -144,8 +138,8 @@ function App() {
           </div>
           <div className={`${styles.project} link ${styles.right}`}>
             <div className={styles.imageContainer}>
-              <img src="/public/whereswaldo1.png" alt="Wheres Waldo Project" />
-              <img src="/public/whereswaldo2.png" alt="Wheres Waldo Project" />
+              <img src="/whereswaldo1.png" alt="Wheres Waldo Project" />
+              <img src="/whereswaldo2.png" alt="Wheres Waldo Project" />
             </div>
             <h2>Wheres Waldo</h2>
             <div>
@@ -179,7 +173,7 @@ function App() {
           </div>
           <div className={`${styles.project} link ${styles.left}`}>
             <div className={styles.imageContainer}>
-              <img src="/public/bst.png" alt="Binary Search Tree Project" />
+              <img src="/bst.png" alt="Binary Search Tree Project" />
             </div>
             <h2>Binary Search Tree</h2>
             <div>
