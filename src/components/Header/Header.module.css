@@ -1,0 +1,75 @@
+.header {
+  position: sticky;
+  top: 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem 0.75rem 2rem;
+  background-color: white;
+  outline: 1px solid;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.svg {
+  height: 2rem;
+  cursor: pointer;
+}
+
+.sidebarMenu {
+  position: fixed;
+  right: 0rem;
+  top: 0px;
+  height: 100vh;
+  width: 14rem;
+  padding: 2rem;
+  background: #949494;
+  background: linear-gradient(
+    0deg,
+    rgba(148, 148, 148, 1) 0%,
+    rgb(225, 225, 225) 100%
+  );
+  outline: 1px solid;
+
+  display: flex;
+  flex-direction: column;
+
+  transform: translateX(100%);
+  transition: transform 0.6s ease-in-out;
+}
+
+.sidebarMenu.display {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebarMenuClose {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  height: 2rem;
+  width: 2rem;
+
+  cursor: pointer;
+}
+
+.sidebarMenu svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.sidebarMenu > * {
+  margin: 0.7rem;
+}
+
+.sidebarMenu a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sidebarMenu a > * {
+  margin-right: 0.3rem;
+}

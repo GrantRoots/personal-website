@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+
+  background: #949494;
+  background: linear-gradient(
+    0deg,
+    rgba(148, 148, 148, 1) 0%,
+    rgb(225, 225, 225) 100%
+  );
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.footer > * > * {
+  margin: 1rem;
+}
+
+.footer svg {
+  height: 3rem;
+}
