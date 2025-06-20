@@ -17,9 +17,9 @@ function App() {
       <main className={styles.main}>
         <section className={styles.hero}>
           <img src="" alt="Picture of Me" />
-          <h2>Full Stack Javascript Developer</h2>
+          <h2>Full Stack JavaScript Developer</h2>
           <p>
-            Hello I'm Grant! I'm a full stack web developer with a passion for
+            Hello, I'm Grant! I'm a full stack web developer with a passion for
             backend development. I. Love. Learning.
           </p>
         </section>
@@ -48,7 +48,7 @@ function App() {
               </a>
             </div>
             <p>
-              Social media app taking inspiration from instagram. This was the
+              Social media app taking inspiration from Instagram. This was the
               final project for The Odin Project cirriculum. And is the project
               I'm most proud of!
             </p>
@@ -91,7 +91,7 @@ function App() {
             </div>
             <p>
               Blogging app that uses two frontends that interact with the same
-              api. One frontend is for the authors and the other is for the
+              API. One frontend is for the authors, and the other is for the
               readers / commenters.
             </p>
             <div className={styles.icon}>
@@ -125,8 +125,8 @@ function App() {
               </a>
             </div>
             <p>
-              This is a simple messaging app like the one from an iphone. Users
-              create chatrooms and can send messages back and forth in them.
+              This is a simple messaging app like the one from an Iphone. Users
+              create chatrooms and can send messages back and forth.
             </p>
             <div className={styles.icon}>
               <ReactIcon></ReactIcon>
@@ -159,7 +159,7 @@ function App() {
               </a>
             </div>
             <p>
-              Super fun project that's the "Where's Waldo" game. I store the
+              Super fun project that's the game "Where's Waldo". I store the
               images positions into the database on page load. Then check the
               submitted click to those coordinates.
             </p>
@@ -197,8 +197,8 @@ function App() {
           <h2>My Github</h2>
           <a href="https://github.com/GrantRoots">github.com/GrantRoots</a>
           <p className={styles.githubP}>
-            A lot of smaller less presentable projects. Check it out to see what
-            I've made along my learning journey.
+            A lot of smaller, less presentable projects. Check it out to see
+            what I've made along my learning journey.
           </p>
         </section>
         <section>
