@@ -80,11 +80,19 @@ function Header() {
           <h3>Email - Click to Copy</h3>
           <div>grant.o.roots@gmail.com</div>
         </div>
-        <a href="https://github.com/GrantRoots">
+        <a
+          href="https://github.com/GrantRoots"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div>Github</div>
           <GithubIcon></GithubIcon>
         </a>
-        <a href="https://www.linkedin.com/in/grant-roots/">
+        <a
+          href="https://www.linkedin.com/in/grant-roots/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div>Linkedin</div>
           <LinkedinIcon></LinkedinIcon>
         </a>

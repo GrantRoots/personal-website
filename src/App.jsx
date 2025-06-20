@@ -141,7 +141,7 @@ function App() {
               <img src="/whereswaldo1.png" alt="Wheres Waldo Project" />
               <img src="/whereswaldo2.png" alt="Wheres Waldo Project" />
             </div>
-            <h2>Wheres Waldo</h2>
+            <h2>Where's Waldo</h2>
             <div>
               <a
                 href="https://whereswaldo-app.netlify.app/"
