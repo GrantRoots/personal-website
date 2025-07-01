@@ -16,8 +16,8 @@ function App() {
       <Header></Header>
       <main className={styles.main}>
         <section className={styles.hero}>
-          <img src="" alt="Picture of Me" />
-          <h2>Full Stack JavaScript Developer</h2>
+          {/* <img src="" alt="Picture of Me" /> */}
+          <h2>Full-Stack JavaScript Developer</h2>
           <p>
             Hello, I'm Grant! I'm a full stack web developer with a passion for
             backend development. I. Love. Learning.
@@ -104,40 +104,6 @@ function App() {
           </div>
           <div className={`${styles.project} link ${styles.left}`}>
             <div className={styles.imageContainer}>
-              <img src="/messagingapp1.png" alt="Messaging App Project" />
-              <img src="/messagingapp2.png" alt="Messaging App Project" />
-            </div>
-            <h2>Messaging App</h2>
-            <div>
-              <a
-                href="https://messaging-app-gr.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live App
-              </a>
-              <a
-                href="https://github.com/GrantRoots/messaging-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github Repo
-              </a>
-            </div>
-            <p>
-              This is a simple messaging app like the one from an Iphone. Users
-              create chatrooms and can send messages back and forth.
-            </p>
-            <div className={styles.icon}>
-              <ReactIcon></ReactIcon>
-              <NodejsIcon></NodejsIcon>
-              <ExpressIcon></ExpressIcon>
-              <PostgresqlIcon></PostgresqlIcon>
-              <PrismaIcon></PrismaIcon>
-            </div>
-          </div>
-          <div className={`${styles.project} link ${styles.right}`}>
-            <div className={styles.imageContainer}>
               <img src="/whereswaldo1.png" alt="Wheres Waldo Project" />
               <img src="/whereswaldo2.png" alt="Wheres Waldo Project" />
             </div>
@@ -171,6 +137,40 @@ function App() {
               <PrismaIcon></PrismaIcon>
             </div>
           </div>
+          <div className={`${styles.project} link ${styles.right}`}>
+            <div className={styles.imageContainer}>
+              <img src="/messagingapp1.png" alt="Messaging App Project" />
+              <img src="/messagingapp2.png" alt="Messaging App Project" />
+            </div>
+            <h2>Messaging App</h2>
+            <div>
+              <a
+                href="https://messaging-app-gr.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live App
+              </a>
+              <a
+                href="https://github.com/GrantRoots/messaging-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Repo
+              </a>
+            </div>
+            <p>
+              This is a simple messaging app like the one from an Iphone. Users
+              create chatrooms and can send messages back and forth.
+            </p>
+            <div className={styles.icon}>
+              <ReactIcon></ReactIcon>
+              <NodejsIcon></NodejsIcon>
+              <ExpressIcon></ExpressIcon>
+              <PostgresqlIcon></PostgresqlIcon>
+              <PrismaIcon></PrismaIcon>
+            </div>
+          </div>
           <div className={`${styles.project} link ${styles.left}`}>
             <div className={styles.imageContainer}>
               <img src="/bst.png" alt="Binary Search Tree Project" />
@@ -186,7 +186,7 @@ function App() {
               </a>
             </div>
             <p>
-              Creates and runs operations on a BST. Project I made while
+              Creates and runs operations on a BST. A project I made while
               learning about data structures and algorithms. I really enjoyed
               using recursion and the abstract thinking that it required.
             </p>
