@@ -16,12 +16,14 @@ function App() {
       <Header></Header>
       <main className={styles.main}>
         <section className={styles.hero}>
-          {/* <img src="" alt="Picture of Me" /> */}
-          <h2>Full-Stack JavaScript Developer</h2>
-          <p>
-            Hello, I'm Grant! I'm a full stack web developer with a passion for
-            backend development. I. Love. Learning.
-          </p>
+          <img src="/pictureofme.png" alt="Picture of Me" />
+          <div>
+            <h2>Full-Stack JavaScript Developer</h2>
+            <p>
+              Hello, I'm Grant! I'm a full stack web developer with a passion
+              for backend development. I. Love. Learning.
+            </p>
+          </div>
         </section>
         <section>
           <h2>My Projects</h2>

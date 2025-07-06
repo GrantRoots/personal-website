@@ -26,7 +26,11 @@ function Footer() {
             <div>Github</div>
           </a>
         </div>
-        <a href="https://www.linkedin.com/in/grant-roots/">
+        <a
+          href="https://www.linkedin.com/in/grant-roots/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <LinkedinIcon></LinkedinIcon>
           <div>Linkedin</div>
         </a>

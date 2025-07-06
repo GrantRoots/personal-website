@@ -6,8 +6,24 @@
   padding-bottom: 2rem;
 }
 
-.hero > p {
+.hero {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero img {
+  align-self: flex-start;
+  max-width: 50%;
+  width: auto;
+  max-height: 80vh;
+}
+
+.hero h2 {
+  max-width: 80%;
+}
+
+.hero p {
   max-width: 80%;
 }
 
