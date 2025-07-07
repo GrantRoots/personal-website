@@ -34,7 +34,6 @@ function Footer() {
           <LinkedinIcon></LinkedinIcon>
           <div>Linkedin</div>
         </a>
-        <a href="">Resume</a>
       </div>
     </footer>
   );

@@ -96,8 +96,6 @@ function Header() {
           <div>Linkedin</div>
           <LinkedinIcon></LinkedinIcon>
         </a>
-
-        <a href="">Resume</a>
       </div>
     </header>
   );
