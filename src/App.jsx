@@ -19,10 +19,7 @@ function App() {
           <img src="/pictureofme.png" alt="Picture of Me" />
           <div>
             <h2>Full-Stack JavaScript Developer</h2>
-            <p>
-              Hello, I'm Grant! I'm a full stack web developer with a passion
-              for backend development. I. Love. Learning.
-            </p>
+            <p>I. Love. Learning.</p>
           </div>
         </section>
         <section>

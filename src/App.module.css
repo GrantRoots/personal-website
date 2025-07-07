@@ -8,15 +8,18 @@
 
 .hero {
   text-align: center;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .hero img {
-  align-self: flex-start;
-  max-width: 50%;
+  max-width: 100%;
   width: auto;
-  max-height: 80vh;
+  max-height: 75vh;
+}
+
+.hero div {
+  justify-self: start;
 }
 
 .hero h2 {
