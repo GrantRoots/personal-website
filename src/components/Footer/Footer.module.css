@@ -26,3 +26,9 @@
 .footer svg {
   height: 3rem;
 }
+
+@media (max-width: 778px) {
+  .footer > * > * {
+    margin: 0rem;
+  }
+}
